@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Weather App using API Call</h1>
+    <div>
+        <label for="">Enter City</label>
+        <input type="text" id="city" placeholder="Eg. Jaipur"/>
+        <button id="searchWeather">Search</button>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <th style="font-size: large;">Parameters</th>
+                <th style="font-size: large;">Values</th>
+            </thead>
+            <tr>
+                <td style="font-size: large;">Location</td>
+                <td id="city_location" style="font-size: large;"></td>
+            </tr>
+            <tr>
+                <td style="font-size: large;">Local Time</td>
+                <td id="localtime" style="font-size: large;"></td>
+            </tr>
+            <tr>
+                <td style="font-size: large;">Location</td>
+                <td id="temperature" style="font-size: large;"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
